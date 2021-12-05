@@ -1,283 +1,295 @@
 <template>
   <div>
-    <v-app>
-      <v-app-bar
-        app
-        color="red"
-        height="100"
+    <v-app-bar
+      shaped
+      prominent
+      color="grey"
+    >
+      <v-avatar
+        class="mr-3"
+        color="grey lighten-5"
+        size="90"
       >
-        <v-avatar
-          class="mr-3"
-          color="grey lighten-5"
-          size="70"
+        <v-img
+          contain
+          max-height="90%"
+          src="http://nncignorerlaloi.free.fr/wp-content/uploads/2019/10/cropped-logo.png"
+        />
+      </v-avatar>
+      <v-flex>
+        <v-toolbar-title
+          class="font-weight-black headline titre"
         >
-          <v-img
-            contain
-            max-height="70%"
-            src="http://nncignorerlaloi.free.fr/wp-content/uploads/2019/10/cropped-logo.png"
-          />
-        </v-avatar>
-
-        <v-toolbar-title class="font-weight-black headline">
           Nul n'est censé ignorer la loi
         </v-toolbar-title>
-      </v-app-bar>
+        <v-toolbar-title>Nemo censetur ignorare lege</v-toolbar-title>
+      </v-flex>
+    </v-app-bar>
 
-      <v-content>
-        <section id="hero">
-          <v-row no-gutters>
-            <v-img
-              :min-height="'calc(100vh - ' + $vuetify.application.top + 'px)'"
-              src="http://nncignorerlaloi.free.fr/wp-content/uploads/2019/10/S0-Justice.jpg"
-            >
-              <v-theme-provider dark>
-                <v-container fill-height>
-                  <v-row
-                    align="center"
-                    class="white--text mx-auto"
-                    justify="center"
-                  >
-                    <v-col
-                      class="white--text text-center"
-                      cols="12"
-                      tag="h1"
-                    >
-                      <span
-                        :class="[$vuetify.breakpoint.smAndDown ? 'display-1' : 'display-2']"
-                        class="font-weight-light"
-                      >
-                        Avoir des droits c'est bien.
-                      </span>
-
-                      <br>
-
-                      <span
-                        :class="[$vuetify.breakpoint.smAndDown ? 'display-3': 'display-4']"
-                        class="font-weight-black"
-                      >
-                        Les connaitre c'est mieux !!
-                      </span>
-                    </v-col>
-
-                    <v-btn
-                      class="align-self-end"
-                      fab
-                      outlined
-                      @click="$vuetify.goTo('#about-me')"
-                    >
-                      <v-icon>mdi-chevron-double-down</v-icon>
-                    </v-btn>
-                  </v-row>
-                </v-container>
-              </v-theme-provider>
-            </v-img>
-          </v-row>
-        </section>
-
-        <section id="about-me">
-          <div class="py-12" />
-
-          <v-container class="text-center">
-            <h2 class="display-2 font-weight-bold mb-3">
-              ABOUT ME
-            </h2>
-
-            <v-responsive
-              class="mx-auto mb-8"
-              width="56"
-            >
-              <v-divider class="mb-1" />
-
-              <v-divider />
-            </v-responsive>
-
-            <v-responsive
-              class="mx-auto title font-weight-light mb-8"
-              max-width="720"
-            >
-              Vuetify is the #1 component library for Vue.js and has been in active development since 2016. The goal of the project is to provide users with everything that is needed to build rich and engaging web applications using the Material Design specification. It accomplishes that with a consistent update cycle, Long-term Support (LTS) for previous versions, responsive community engagement, a vast ecosystem of resources and a dedication to quality components.
-            </v-responsive>
-
-            <v-avatar
-              class="elevation-12 mb-12"
-              size="128"
-            >
-              <v-img src="http://nncignorerlaloi.free.fr/wp-content/uploads/2019/10/cropped-logo.png" />
-            </v-avatar>
-
-            <div />
-
-            <v-btn
-              color="grey"
-              href="https://vuetifyjs.com"
-              outlined
-              large
-            >
-              <span class="grey--text text--darken-1 font-weight-bold">
-                Vuetify Documentation
-              </span>
-            </v-btn>
-          </v-container>
-
-          <div class="py-12" />
-        </section>
-
-        <section
-          id="features"
-          class="grey lighten-3"
+    <v-content
+      fill-height
+    >
+      <section id="hero">
+        <v-row
+          fill-height
+          no-gutters
         >
-          <div class="py-12" />
-
-          <v-container class="text-center">
-            <h2 class="display-2 font-weight-bold mb-3">
-              NEWS OF THE WORLD
-            </h2>
-
-            <v-responsive
-              class="mx-auto mb-12"
-              width="56"
-            >
-              <v-divider class="mb-1" />
-
-              <v-divider />
-            </v-responsive>
-
-            <v-row>
-              <v-col
-                v-for="({ icon, title, text }, i) in features"
-                :key="i"
-                cols="12"
-                md="4"
-              >
-                <v-card
-                  class="py-12 px-4"
-                  color="grey lighten-5"
-                  flat
-                >
-                  <v-theme-provider dark>
-                    <div>
-                      <v-avatar
-                        color="primary"
-                        size="88"
-                      >
-                        <v-icon
-                          large
-                          v-text="icon"
-                        />
-                      </v-avatar>
-                    </div>
-                  </v-theme-provider>
-
-                  <v-card-title
-                    class="justify-center font-weight-black text-uppercase"
-                    v-text="title"
-                  />
-
-                  <v-card-text
-                    class="subtitle-1"
-                    v-text="text"
-                  />
-                </v-card>
-              </v-col>
-            </v-row>
-          </v-container>
-
-          <div class="py-12" />
-        </section>
-
-        <section id="stats">
-          <v-parallax
-            :height="$vuetify.breakpoint.smAndDown ? 700 : 500"
-            src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+          <v-img
+            width="100%"
+            :min-height="'calc(100vh - ' + $vuetify.application.top + 'px)'"
+            src="http://nncignorerlaloi.free.fr/wp-content/uploads/2019/10/S0-Justice.jpg"
           >
-            <v-container fill-height>
-              <v-row class="mx-auto">
-                <v-col
-                  v-for="[value, title] of stats"
-                  :key="title"
-                  cols="12"
-                  md="3"
-                >
-                  <div class="text-center">
-                    <div
-                      class="display-3 font-weight-black mb-4"
-                      v-text="value"
-                    />
-
-                    <div
-                      class="title font-weight-regular text-uppercase"
-                      v-text="title"
-                    />
-                  </div>
-                </v-col>
-              </v-row>
-            </v-container>
-          </v-parallax>
-        </section>
-
-        <section id="blog">
-          <div class="py-12" />
-
-          <v-container>
-            <h2 class="display-2 font-weight-bold mb-3 text-uppercase text-center">
-              Blog
-            </h2>
-
-            <v-responsive
-              class="mx-auto mb-12"
-              width="56"
-            >
-              <v-divider class="mb-1" />
-
-              <v-divider />
-            </v-responsive>
-
-            <v-row>
-              <v-col
-                v-for="({ src, text, title }, i) in articles"
-                :key="i"
-                cols="12"
-                md="4"
+            <v-theme-provider dark>
+              <v-container
+                fill-height
+                no-gutters
               >
-                <v-img
-                  :src="src"
-                  class="mb-4"
-                  height="275"
-                  max-width="100%"
-                />
+                <v-row
+                  align="center"
+                  class="white--text"
+                  justify="center"
+                >
+                  <v-col
+                    class="white--text text-center"
+                    cols="12"
+                    tag="h1"
+                  >
+                    <span
+                      :class="[$vuetify.breakpoint.smAndDown ? 'display-1' : 'display-2']"
+                      class="font-weight-light"
+                    >
+                      Avoir des droits c'est bien.
+                    </span>
 
-                <h3
-                  class="font-weight-black mb-4 text-uppercase"
+                    <br>
+
+                    <span
+                      :class="[$vuetify.breakpoint.smAndDown ? 'display-3': 'display-4']"
+                      class="font-weight-black"
+                    >
+                      Les connaitre c'est mieux !!
+                    </span>
+                  </v-col>
+
+                  <v-btn
+                    class="align-self-end"
+                    color="red"
+                    fab
+                    @click="$vuetify.goTo('#about-me')"
+                  >
+                    <v-icon>mdi-chevron-double-down</v-icon>
+                  </v-btn>
+                </v-row>
+              </v-container>
+            </v-theme-provider>
+          </v-img>
+        </v-row>
+      </section>
+
+      <section id="about-me">
+        <div class="py-12" />
+
+        <v-container class="text-center">
+          <h2 class="display-2 font-weight-bold mb-3">
+            Nul n'est censé ignorer la loi
+          </h2>
+
+          <v-responsive
+            class="mx-auto mb-8"
+            width="56"
+          >
+            <v-divider class="mb-1" />
+
+            <v-divider />
+          </v-responsive>
+
+          <v-responsive
+            class="mx-auto title font-weight-light mb-8"
+            max-width="900"
+          >
+            En théorie, il est vrai que nul n'est censé ignorer la loi. Mais la réalité est (très) loin d'être aussi simple. Avec plus de 70 codes en vigueur sur le territoire, le citoyen ne peut, bien evidemment pas tout connaitre de la loi. Même les professionnlles ne connaissent pas tout de la loi.
+          </v-responsive>
+
+          <v-avatar
+            class="elevation-12 mb-12"
+            size="128"
+          >
+            <v-img src="http://nncignorerlaloi.free.fr/wp-content/uploads/2019/10/cropped-logo.png" />
+          </v-avatar>
+
+          <div />
+
+          <v-btn
+            color="yellow"
+            href="https://www.youtube.com/channel/UC7hohh4A1O1ueLvHSqixmzA"
+            target="_blank"
+            outlined
+            large
+          >
+            <span class="yellow--text text--darken-1 font-weight-bold">
+              La chaine youtube
+            </span>
+          </v-btn>
+        </v-container>
+
+        <div class="py-12" />
+      </section>
+
+      <section
+        id="features"
+        class="grey lighten-3"
+      >
+        <div class="py-12" />
+
+        <v-container class="text-center">
+          <h2 class="display-2 font-weight-bold mb-3">
+            NEWS OF THE WORLD
+          </h2>
+
+          <v-responsive
+            class="mx-auto mb-12"
+            width="56"
+          >
+            <v-divider class="mb-1" />
+
+            <v-divider />
+          </v-responsive>
+
+          <v-row>
+            <v-col
+              v-for="({ icon, title, text }, i) in features"
+              :key="i"
+              cols="12"
+              md="4"
+            >
+              <v-card
+                class="py-12 px-4"
+                color="grey"
+                flat
+              >
+                <v-theme-provider dark>
+                  <div>
+                    <v-avatar
+                      color="primary"
+                      size="88"
+                    >
+                      <v-icon
+                        large
+                        v-text="icon"
+                      />
+                    </v-avatar>
+                  </div>
+                </v-theme-provider>
+
+                <v-card-title
+                  class="justify-center font-weight-black text-uppercase"
                   v-text="title"
                 />
 
-                <div
-                  class="title font-weight-light mb-5"
+                <v-card-text
+                  class="subtitle-1"
                   v-text="text"
                 />
+              </v-card>
+            </v-col>
+          </v-row>
+        </v-container>
 
-                <v-btn
-                  class="ml-n4 font-weight-black"
-                  text
-                >
-                  on est ici
-                </v-btn>
+        <div class="py-12" />
+      </section>
+
+      <section id="stats">
+        <v-parallax
+          :height="$vuetify.breakpoint.smAndDown ? 700 : 500"
+          src="http://2.bp.blogspot.com/_mkUEVRFknd0/R7Nvhj4yKeI/AAAAAAAABb4/-nQY0eQ0DgY/S1600-R/ddhc1.jpg"
+        >
+          <v-container fill-height>
+            <v-row class="mx-auto">
+              <v-col
+                v-for="[value, title] of stats"
+                :key="title"
+                cols="12"
+                md="3"
+              >
+                <div class="text-center">
+                  <div
+                    class="display-3 font-weight-black mb-4"
+                    v-text="value"
+                  />
+
+                  <div
+                    class="title font-weight-regular text-lowercase"
+                    v-text="title"
+                  />
+                </div>
               </v-col>
             </v-row>
           </v-container>
-        </section>
-      </v-content>
+        </v-parallax>
+      </section>
 
-      <v-footer
-        class="justify-center"
-        color="#292929"
-        height="100"
-      >
-        <div class="title font-weight-light grey--text text--lighten-1 text-center">
-          &copy; {{ (new Date()).getFullYear() }} — Made with 💜 by Devon Thefloor
-        </div>
-      </v-footer>
-    </v-app>
+      <section id="blog">
+        <div class="py-12" />
+
+        <v-container>
+          <h2 class="display-2 font-weight-bold mb-3 text-uppercase text-center">
+            Blog
+          </h2>
+
+          <v-responsive
+            class="mx-auto mb-12"
+            width="56"
+          >
+            <v-divider class="mb-1" />
+
+            <v-divider />
+          </v-responsive>
+
+          <v-row>
+            <v-col
+              v-for="({ src, text, title }, i) in articles"
+              :key="i"
+              cols="12"
+              md="4"
+            >
+              <v-img
+                :src="src"
+                class="mb-4"
+                height="275"
+                max-width="100%"
+              />
+
+              <h3
+                class="font-weight-black mb-4 text-uppercase"
+                v-text="title"
+              />
+
+              <div
+                class="title font-weight-light mb-5"
+                v-text="text"
+              />
+
+              <v-btn
+                class="ml-n4 font-weight-black"
+                text
+              >
+                on est ici
+              </v-btn>
+            </v-col>
+          </v-row>
+        </v-container>
+      </section>
+    </v-content>
+
+    <v-footer
+      class="justify-center"
+      color="#292929"
+      height="100"
+    >
+      <div class="title font-weight-light grey--text text--lighten-1 text-center">
+        &copy; {{ (new Date()).getFullYear() }} — Made with 💜 by Devon Thefloor
+      </div>
+    </v-footer>
   </div>
 </template>
 
@@ -327,3 +339,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.titre {
+  overflow: auto;
+}
+</style>

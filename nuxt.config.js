@@ -6,7 +6,7 @@ export default {
     titleTemplate: '%s - losloyos',
     title: 'losloyos',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'fr'
     },
     meta: [
       { charset: 'utf-8' },
@@ -15,10 +15,12 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: 'http://nncignorerlaloi.free.fr/wp-content/uploads/2019/10/cropped-logo.png' }
     ]
   },
-
+  static: {
+    prefix: false
+  },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],

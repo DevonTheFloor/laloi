@@ -38,12 +38,6 @@
       </v-btn>
       <v-btn
         icon
-        @click.stop="clipped = !clipped"
-      >
-        <v-icon>mdi-application</v-icon>
-      </v-btn>
-      <v-btn
-        icon
         @click.stop="fixed = !fixed"
       >
         <v-icon>mdi-minus</v-icon>
@@ -58,8 +52,8 @@
       </v-btn>
     </v-app-bar>
     <v-main>
-      <v-container>
-        <Nuxt />
+      <v-container fluid>
+        <Nuxt id="principal" />
       </v-container>
     </v-main>
     <v-navigation-drawer
@@ -69,7 +63,7 @@
       fixed
     >
       <v-list>
-        <v-list-item @click.native="right = !right">
+        <v-list-item @click.native="rightfluid = !right">
           <v-list-item-action>
             <v-icon light>
               mdi-repeat
@@ -98,20 +92,26 @@ export default {
       items: [
         {
           icon: 'mdi-apps',
-          title: 'Welcome',
+          title: 'Bienvenue',
           to: '/'
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
+          title: 'Blog',
+          to: '/blog'
         }
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
+      title: 'Menu escamotable'
     }
   }
 }
 </script>
+
+<style>
+#principal {
+  margin: auto;
+}
+</style>
