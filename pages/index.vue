@@ -105,9 +105,9 @@
 
           <v-responsive
             class="mx-auto title font-weight-light mb-8"
-            max-width="900"
+            max-width="1200"
           >
-            En théorie, il est vrai que nul n'est censé ignorer la loi. Mais la réalité est (très) loin d'être aussi simple. Avec plus de 70 codes en vigueur sur le territoire, le citoyen ne peut, bien evidemment pas tout connaitre de la loi. Même les professionnlles ne connaissent pas tout de la loi.
+            En théorie, il est vrai que nul n'est censé ignorer la loi. Mais la réalité est (très) loin d'être aussi simple. Avec plus de 70 codes en vigueur sur le territoire et quelques 320 000 textes legislatifs, le citoyen ne peut, bien evidemment pas tout connaitre de la loi. Même les professionnels ne connaissent pas tout de la loi. Et bien sûr c'est un drame, car, quel état peut se dire "de droit" alors même que 95% des lois qu'il édicte sont méconnus des justiciables? Mais j'espère bien vous aidez à y voir un peu plus clair dans le fonctionnement de la loi sans vous noyer dans son tsunami de textes légales.
           </v-responsive>
 
           <v-avatar
@@ -143,7 +143,7 @@
 
         <v-container class="text-center">
           <h2 class="display-2 font-weight-bold mb-3">
-            NEWS OF THE WORLD
+            LES "COLLEGUES" YOUTBUEURS
           </h2>
 
           <v-responsive
@@ -157,7 +157,7 @@
 
           <v-row>
             <v-col
-              v-for="({ icon, title, text }, i) in features"
+              v-for="({ icon, title, text, link }, i) in features"
               :key="i"
               cols="12"
               md="4"
@@ -173,10 +173,12 @@
                       color="primary"
                       size="88"
                     >
-                      <v-icon
-                        large
-                        v-text="icon"
-                      />
+                      <a :href="link" target="_blank">
+                        <v-img :src="icon" />
+                        <!--<v-icon
+                          large
+                          v-text="icon"
+                        />--></a>
                     </v-avatar>
                   </div>
                 </v-theme-provider>
@@ -218,7 +220,7 @@
                   />
 
                   <div
-                    class="title font-weight-regular text-lowercase"
+                    class="title font-weight-regular text-uppercase"
                     v-text="title"
                   />
                 </div>
@@ -287,7 +289,7 @@
       height="100"
     >
       <div class="title font-weight-light grey--text text--lighten-1 text-center">
-        &copy; {{ (new Date()).getFullYear() }} — Made with 💜 by Devon Thefloor
+        &copy; {{ (new Date()).getFullYear() }} — Made with 💜 by <a href="https://thierry-go-dev.fr" target="_blank">Thierry</a>
       </div>
     </v-footer>
   </div>
@@ -316,27 +318,51 @@ export default {
       ],
       features: [
         {
-          icon: 'mdi-account-group-outline',
-          title: 'Vibrant Community',
-          text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam'
+          icon: 'https://yt3.ggpht.com/ytc/AKedOLQOS_idzR5nx_t0KYaSgEKxJnE3rpBdxKQepf5Y=s88-c-k-c0x00ffffff-no-rj',
+          title: 'La chaîne de Bruno Dondero',
+          text: 'Depuis 2016, je transmets en direct sur YouTube et Facebook le cours de droit des sociétés depuis mon amphithéâtre de l\'Université Paris 1 (2 semestres). En 2020-2021, le cours est filmé en studio et enrichi d\'extraits de films, de séries, de JT et d\'autres documents. J\'aurai parfois des invités. Vous trouverez aussi quelques vidéos "spot" qui traitent d\'un point d\'actualité et des vidéos reprenant des extraits de films ou de séries avec des sous-titres - comment dire? - un peu adaptés...',
+          link: 'https://www.youtube.com/channel/UCMfvfSh4b4rguVZVcmEHV-Q'
         },
         {
-          icon: 'mdi-update',
-          title: 'Frequent Updates',
-          text: 'Sed ut elementum justo. Suspendisse non justo enim. Vestibulum cursus mauris dui, a luctus ex blandit. Lorem ipsum dolor sit amet consectetur adipisicing elit. qui ipsum eveniet facilis obcaecati corrupti consectetur adipisicing elit.'
+          icon: 'https://yt3.ggpht.com/ytc/AKedOLQEZF33dHX9BHChwD3kGKFaM0pdb40Gm8amuZMD=s88-c-k-c0x00ffffff-no-rj',
+          title: ' Codes&Co ',
+          text: 'Bébé juriste qui a un pied en France et \'autre à l’international, amoureuse de l\'Europe, du droit de l\'Union Européenne et du droit international (mais pas maso pour autant). Essaie de se remettre à l\'anglais mais préfère bosser des langues asiatiques. Un peu de danse entre deux codes. Beaucoup envie de partager ma passion pour le droit et de le rendre accessible ! L1/L2 Université Toulouse 1 Capitole - L3/M1 Universidad de Valencia (Espagne) - M2 Université nationale du Vietnam de Hanoï Doctorante Université de Bordeaux/Universidad de Valencia - Traite des êtres humains et nouvelles technologies',
+          link: 'https://www.youtube.com/channel/UCJYKp6eGV9FhPoiBUzoztSg'
         },
         {
-          icon: 'mdi-shield-outline',
-          title: 'Long-term Support',
-          text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam'
+          // icon: 'mdi-shield-outline',
+          icon: 'https://yt3.ggpht.com/ytc/AKedOLS6rLc8BSYeTJxck2LWKHcgIX3yUd-G0wkg-W3B=s88-c-k-c0x00ffffff-no-rj',
+          title: ' Lex Tutor',
+          text: 'Lex Tutor est une émission de fiction et d\'éducation populaire autour du Droit. "Vous êtes-vous déjà demandé pourquoi vous aviez le droit de faire certaines choses, et pas le droit d’en faire d’autres ? D’ailleurs, vous êtes-vous déjà vraiment demandé pourquoi vous aviez… le Droit ? Lâché au Japon, avec un ukulélé, un chapeau et des bons plans pour quémander l\'aumône, Lex Tutor vous emmène chaque mois sur les chemins sinueux du Droit afin de vous aider à décoder les vôtres." ',
+          link: 'https://www.youtube.com/user/NunyaFR'
         }
       ],
       stats: [
         ['5,1k', 'Abonnés sur youtube'],
-        ['108', 'Vidéos']
+        ['108', 'Vidéos'],
+        ['360900', 'Vues'],
+        ['2015', 'Existe depuis']
+      ]
+    }
+  },
+  head () {
+    return {
+      title: 'Nul n\'est censé ignorer la loi',
+      htmlAttrs: {
+        lang: 'fr'
+      },
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { hid: 'description', name: 'description', content: 'Chaine Youtube de diffusion, vulgarisation du droit et veille juridique.' },
+        { name: 'format-detection', content: 'telephone=no' }
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: 'http://nncignorerlaloi.free.fr/wp-content/uploads/2019/10/cropped-logo.png' }
       ]
     }
   }
+
 }
 </script>
 
