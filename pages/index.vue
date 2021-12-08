@@ -199,11 +199,11 @@
 
         <div class="py-12" />
       </section>
-
+      <v-divider />
       <section id="stats">
         <v-parallax
           :height="$vuetify.breakpoint.smAndDown ? 700 : 500"
-          src="http://2.bp.blogspot.com/_mkUEVRFknd0/R7Nvhj4yKeI/AAAAAAAABb4/-nQY0eQ0DgY/S1600-R/ddhc1.jpg"
+          src="http://sld30.s.l.pic.centerblog.net/c3931045.gif"
         >
           <v-container fill-height>
             <v-row class="mx-auto">
@@ -212,6 +212,7 @@
                 :key="title"
                 cols="12"
                 md="3"
+                wrap
               >
                 <div class="text-center">
                   <div
@@ -235,7 +236,7 @@
 
         <v-container>
           <h2 class="display-2 font-weight-bold mb-3 text-uppercase text-center">
-            Blog
+            Organisation
           </h2>
 
           <v-responsive
@@ -301,19 +302,19 @@ export default {
     return {
       articles: [
         {
-          src: 'https://images.unsplash.com/photo-1423784346385-c1d4dac9893a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80',
-          title: 'Mobile first & Responsive',
-          text: 'Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. Sed ornare ligula eget tortor tempor, quis porta tellus dictum.'
+          src: 'http://nncignorerlaloi.free.fr/images/plm.png',
+          title: 'Précis légale et reglementaire',
+          text: 'On fait le point sur un article d\'un code ou d\'un règlement, j\'expose le contenu et en explique les conceptes.'
         },
         {
-          src: 'https://images.unsplash.com/photo-1475938476802-32a7e851dad1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80',
-          title: 'Think outside the box',
-          text: 'Nam ut leo ipsum. Maecenas pretium aliquam feugiat. Aenean vel tempor est, vitae tincidunt risus. Sed sodales vestibulum nibh.'
+          src: 'http://nncignorerlaloi.free.fr/images/pjm.png',
+          title: 'Précis judiciare, point juridique',
+          text: 'Les employeurs peuvent t\'ils porter plainte pour hacèlement au travail? Se servir dans les poubelles, est-ce du vol? Des cas concrets de la vie de tout les jours ou de véritables affaires, le quotidien decrypté juridiquement.'
         },
         {
-          src: 'https://images.unsplash.com/photo-1416339442236-8ceb164046f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1892&q=80',
-          title: 'Small changes, big difference',
-          text: 'Vestibulum in dictum velit, in rhoncus nibh. Maecenas neque libero, interdum a dignissim in, aliquet vitae lectus. Phasellus lorem enim, luctus ut velit eget.'
+          src: 'http://nncignorerlaloi.free.fr/images/flm.png',
+          title: 'Veille juridique, flash JO',
+          text: 'Jour après jour ou en est la loi, que change le règlement dans notre vie. Ce qui se passe dans le droit en temps réelle (enfin à mon rythme quand même ...).'
         }
       ],
       features: [
