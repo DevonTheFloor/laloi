@@ -13,7 +13,7 @@
         <v-img
           contain
           max-height="90%"
-          src="http://nncignorerlaloi.free.fr/wp-content/uploads/2019/10/cropped-logo.png"
+          src="https://nulnestcenseignorerlaloi.fr/images/cropped-logo.png"
         />
       </v-avatar>
       <v-flex>
@@ -41,7 +41,7 @@
           <v-img
             width="100%"
             :min-height="'calc(100vh - ' + $vuetify.application.top + 'px)'"
-            src="http://nncignorerlaloi.free.fr/wp-content/uploads/2019/10/S0-Justice.jpg"
+            src="https://nulnestcenseignorerlaloi.fr/images/S0-Justice.jpg"
           >
             <v-theme-provider dark>
               <v-container
@@ -118,7 +118,7 @@
             class="elevation-12 mb-12"
             size="128"
           >
-            <v-img src="http://nncignorerlaloi.free.fr/wp-content/uploads/2019/10/cropped-logo.png" />
+            <v-img src="https://nulnestcenseignorerlaloi.fr/images/cropped-logo.png" />
           </v-avatar>
 
           <div />
@@ -306,17 +306,17 @@ export default {
     return {
       articles: [
         {
-          src: 'http://nncignorerlaloi.free.fr/images/plm.png',
+          src: 'https://nulnestcenseignorerlaloi.fr/images/plm.png',
           title: 'Précis légale et reglementaire',
           text: 'On fait le point sur un article d\'un code ou d\'un règlement, j\'expose le contenu et en explique les conceptes.'
         },
         {
-          src: 'http://nncignorerlaloi.free.fr/images/pjm.png',
+          src: 'https://nulnestcenseignorerlaloi.fr/images/pjm.png',
           title: 'Précis judiciare, point juridique',
           text: 'Les employeurs peuvent t\'ils porter plainte pour hacèlement au travail? Se servir dans les poubelles, est-ce du vol? Des cas concrets de la vie de tout les jours ou de véritables affaires, le quotidien decrypté juridiquement.'
         },
         {
-          src: 'http://nncignorerlaloi.free.fr/images/flm.png',
+          src: 'https://nulnestcenseignorerlaloi.fr/images/flm.png',
           title: 'Veille juridique, flash JO',
           text: 'Jour après jour ou en est la loi, que change le règlement dans notre vie. Ce qui se passe dans le droit en temps réelle (enfin à mon rythme quand même ...).'
         }
@@ -363,7 +363,7 @@ export default {
         { name: 'format-detection', content: 'telephone=no' }
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: 'http://nncignorerlaloi.free.fr/wp-content/uploads/2019/10/cropped-logo.png' }
+        { rel: 'icon', type: 'image/x-icon', href: 'https://nulnestcenseignorerlaloi.fr/images/cropped-logo.png' }
       ]
     }
   }
