@@ -22,7 +22,11 @@
         >
           Nul n'est censé ignorer la loi
         </v-toolbar-title>
-        <v-toolbar-title>Nemo censetur ignorare lege</v-toolbar-title>
+        <v-toolbar-title
+          class="titre"
+        >
+          Nemo censetur ignorare lege
+        </v-toolbar-title>
       </v-flex>
     </v-app-bar>
 
@@ -369,6 +373,6 @@ export default {
 
 <style>
 .titre {
-  overflow: auto;
+  white-space: normal;
 }
 </style>
