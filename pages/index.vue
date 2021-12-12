@@ -30,7 +30,7 @@
       </v-flex>
     </v-app-bar>
 
-    <v-content
+    <v-main
       fill-height
     >
       <section id="hero">
@@ -111,7 +111,16 @@
             class="mx-auto title font-weight-light mb-8"
             max-width="1200"
           >
-            En théorie, il est vrai que nul n'est censé ignorer la loi. Mais la réalité est (très) loin d'être aussi simple. Avec plus de 70 codes en vigueur sur le territoire et quelques 320 000 textes legislatifs, le citoyen ne peut, bien evidemment pas tout connaitre de la loi. Même les professionnels ne connaissent pas tout de la loi. Et bien sûr c'est un drame, car, quel état peut se dire "de droit" alors même que 95% des lois qu'il édicte sont méconnus des justiciables? Mais j'espère bien vous aidez à y voir un peu plus clair dans le fonctionnement de la loi sans vous noyer dans son tsunami de textes légales.
+            En théorie, il est vrai que nul n'est censé ignorer la loi. Mais la réalité est (très) loin d'être aussi simple. Avec plus de 70 codes en vigueur sur le territoire et quelques 320 000 textes legislatifs, le citoyen ne peut, bien evidemment pas tout connaitre de la loi. Même les professionnels ne connaissent pas tout de la loi. Et bien sûr c'est un drame, car, quel état peut se dire "de droit" alors même que 95% des lois qu'il édicte sont méconnus des justiciables? Mais j'espère bien vous aidez à y voir un peu plus clair dans le fonctionnement de la loi sans vous noyer dans son océan de textes légales.<br>
+            <v-btn
+              outlined
+              plain
+              rounded
+              color="secondary"
+              to="blog/bienvenu"
+            >
+              Lire la suite
+            </v-btn>
           </v-responsive>
 
           <v-avatar
@@ -207,7 +216,7 @@
       <section id="stats">
         <v-parallax
           :height="$vuetify.breakpoint.smAndDown ? 700 : 500"
-          src="http://sld30.s.l.pic.centerblog.net/c3931045.gif"
+          src="https://nulnestcenseignorerlaloi.fr/images/ddhc.jpeg"
         >
           <v-container fill-height>
             <v-row class="mx-auto">
@@ -286,7 +295,7 @@
           </v-row>
         </v-container>
       </section>
-    </v-content>
+    </v-main>
 
     <v-footer
       class="justify-center"

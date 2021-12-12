@@ -98,7 +98,7 @@ export default {
         {
           icon: 'mdi-chart-bubble',
           title: 'Blog',
-          to: '/blog'
+          to: '/sommaire'
         }
       ],
       miniVariant: false,
