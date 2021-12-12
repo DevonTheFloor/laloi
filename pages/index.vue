@@ -117,7 +117,7 @@
               plain
               rounded
               color="secondary"
-              to="blog/bienvenu"
+              to="blog/bienvenue"
             >
               Lire la suite
             </v-btn>
