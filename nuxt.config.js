@@ -15,7 +15,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'http://nncignorerlaloi.free.fr/wp-content/uploads/2019/10/cropped-logo.png' }
+      { rel: 'icon', type: 'image/x-icon', href: 'https://nulnestcenseignorerlaloi.fr/images/cropped-logo.png' }
     ]
   },
   static: {

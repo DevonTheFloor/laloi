@@ -1,6 +1,7 @@
 <template>
   <div>
     <v-app-bar
+      class="pb-15"
       shaped
       prominent
       color="grey"
@@ -18,12 +19,12 @@
       </v-avatar>
       <v-flex>
         <v-toolbar-title
-          class="font-weight-black headline titre"
+          class="font-weight-black headline titre pa-1"
         >
           Nul n'est censé ignorer la loi
         </v-toolbar-title>
         <v-toolbar-title
-          class="titre"
+          class="titre pa-1"
         >
           Nemo censetur ignorare lege
         </v-toolbar-title>
@@ -379,9 +380,6 @@ export default {
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { hid: 'description', name: 'description', content: 'Chaine Youtube de diffusion, vulgarisation du droit et veille juridique.' },
         { name: 'format-detection', content: 'telephone=no' }
-      ],
-      link: [
-        { rel: 'icon', type: 'image/x-icon', href: 'https://nulnestcenseignorerlaloi.fr/images/cropped-logo.png' }
       ]
     }
   }

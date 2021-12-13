@@ -4,9 +4,11 @@
       <h1 class="ma-3 text-center">
         {{ page.title }}
       </h1>
-      <p class="ma-4">{{ page.description }}</p>
+      <p class="ma-4">
+        {{ page.description }}
+      </p>
       <figure class="illustration">
-        <img :src="page.img">
+        <img :src="page.img" class="ma-auto imgart">
       </figure>
       <nuxt-content :document="page" />
     </v-card>
@@ -57,4 +59,10 @@ p {
   margin: 1%;
   font-size: 1rem;
 }
+.imgart {
+  display: block;
+  max-width: 80%;
+  min-width: 50%;
+}
+
 </style>

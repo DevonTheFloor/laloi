@@ -1,6 +1,7 @@
 ---
 title: Bienvenue sur le site
 description: Nul n'est censé ignorer la loi est une chaîne Youtube de diffusion et de vulgarisation du droit. Car, c'est vrai, avoir des droits c'est bien! Mais les connaitre c'est réellement mieux. Et personne n'est moins au courant de l'état du droit que le justiciable lui même.
+img: 'https://nulnestcenseignorerlaloi.fr/images/blog/art1.jpg'
 ---
 
 ## Introduction   
