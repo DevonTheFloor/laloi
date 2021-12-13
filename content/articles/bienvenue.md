@@ -25,8 +25,8 @@ De là il faudra qualifier les faits et c'est seulement là qu'on se pose la que
    ## Bwef   
       
    C'est loin d'être evident tout ça, les juridictions elles mêmes peuvent se tromper, tant et si bien qu'il y a même un tribunal des conflits pour trancher les conflits de compétences entre les juridictions, c'est dire!   
-   Mais néanmoins, si on commence par le commencement et qu'on cherche à bien comprendre les tenants et les aboutissants, on finin par s'y retrouver.   
+   Mais néanmoins, si on commence par le commencement et qu'on cherche à bien comprendre les tenants et les aboutissants, on fini par s'y retrouver.   
          
-   Et c'est bieb là tout ce que je souhairte faire avec cette chaîne.   
+   Et c'est bien là tout ce que je souhaite faire avec cette chaîne.   
    Ami justiciable, je te dis à bientôt! 
 

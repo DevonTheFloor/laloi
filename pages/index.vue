@@ -31,10 +31,12 @@
     </v-app-bar>
 
     <v-main
+      class="pa-5"
       fill-height
     >
       <section id="hero">
         <v-row
+          fluid
           fill-height
           no-gutters
         >
@@ -113,6 +115,7 @@
           >
             En théorie, il est vrai que nul n'est censé ignorer la loi. Mais la réalité est (très) loin d'être aussi simple. Avec plus de 70 codes en vigueur sur le territoire et quelques 320 000 textes legislatifs, le citoyen ne peut, bien evidemment pas tout connaitre de la loi. Même les professionnels ne connaissent pas tout de la loi. Et bien sûr c'est un drame, car, quel état peut se dire "de droit" alors même que 95% des lois qu'il édicte sont méconnus des justiciables? Mais j'espère bien vous aidez à y voir un peu plus clair dans le fonctionnement de la loi sans vous noyer dans son océan de textes légales.<br>
             <v-btn
+              class="ma-4"
               outlined
               plain
               rounded
@@ -226,6 +229,7 @@
                 cols="12"
                 md="3"
                 wrap
+                fluid
               >
                 <div class="text-center">
                   <div
@@ -263,7 +267,7 @@
 
           <v-row>
             <v-col
-              v-for="({ src, text, title }, i) in articles"
+              v-for="({ src, text, title, links }, i) in articles"
               :key="i"
               cols="12"
               md="4"
@@ -288,8 +292,10 @@
               <v-btn
                 class="ml-n4 font-weight-black"
                 text
+                :href="links"
+                target="_blank"
               >
-                on est ici
+                Play List
               </v-btn>
             </v-col>
           </v-row>
@@ -315,16 +321,19 @@ export default {
     return {
       articles: [
         {
+          links: 'https://www.youtube.com/watch?v=JO0kROb9EsA&list=PLIVY7_dNXdGQk_fdewub1zmBEX39rdbZG',
           src: 'https://nulnestcenseignorerlaloi.fr/images/plm.png',
           title: 'Précis légale et reglementaire',
-          text: 'On fait le point sur un article d\'un code ou d\'un règlement, j\'expose le contenu et en explique les conceptes.'
+          text: 'On fait le point sur un article d\'un code ou d\'un règlement, j\'expose le contenu et en explique les concepts.'
         },
         {
+          links: 'https://www.youtube.com/watch?v=AgZH4hdsKEk&list=PLIVY7_dNXdGQLvtzKhz8O1FIRcTtjAXM2',
           src: 'https://nulnestcenseignorerlaloi.fr/images/pjm.png',
           title: 'Précis judiciare, point juridique',
           text: 'Les employeurs peuvent t\'ils porter plainte pour hacèlement au travail? Se servir dans les poubelles, est-ce du vol? Des cas concrets de la vie de tout les jours ou de véritables affaires, le quotidien decrypté juridiquement.'
         },
         {
+          links: 'https://www.youtube.com/watch?v=-uFdTmtDVR8&list=PLIVY7_dNXdGSsEFNpAbDTMOz__0zrazNQ',
           src: 'https://nulnestcenseignorerlaloi.fr/images/flm.png',
           title: 'Veille juridique, flash JO',
           text: 'Jour après jour ou en est la loi, que change le règlement dans notre vie. Ce qui se passe dans le droit en temps réelle (enfin à mon rythme quand même ...).'
@@ -340,7 +349,7 @@ export default {
         {
           icon: 'https://yt3.ggpht.com/ytc/AKedOLQEZF33dHX9BHChwD3kGKFaM0pdb40Gm8amuZMD=s88-c-k-c0x00ffffff-no-rj',
           title: ' Codes&Co ',
-          text: 'Bébé juriste qui a un pied en France et \'autre à l’international, amoureuse de l\'Europe, du droit de l\'Union Européenne et du droit international (mais pas maso pour autant). Essaie de se remettre à l\'anglais mais préfère bosser des langues asiatiques. Un peu de danse entre deux codes. Beaucoup envie de partager ma passion pour le droit et de le rendre accessible ! L1/L2 Université Toulouse 1 Capitole - L3/M1 Universidad de Valencia (Espagne) - M2 Université nationale du Vietnam de Hanoï Doctorante Université de Bordeaux/Universidad de Valencia - Traite des êtres humains et nouvelles technologies',
+          text: 'Bébé juriste qui a un pied en France et l\'autre à l’international, amoureuse de l\'Europe, du droit de l\'Union Européenne et du droit international (mais pas maso pour autant). Essaie de se remettre à l\'anglais mais préfère bosser des langues asiatiques. Un peu de danse entre deux codes. Beaucoup envie de partager ma passion pour le droit et de le rendre accessible ! L1/L2 Université Toulouse 1 Capitole - L3/M1 Universidad de Valencia (Espagne) - M2 Université nationale du Vietnam de Hanoï Doctorante Université de Bordeaux/Universidad de Valencia - Traite des êtres humains et nouvelles technologies',
           link: 'https://www.youtube.com/channel/UCJYKp6eGV9FhPoiBUzoztSg'
         },
         {

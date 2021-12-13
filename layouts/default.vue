@@ -111,7 +111,5 @@ export default {
 </script>
 
 <style>
-#principal {
-  margin: auto;
-}
+
 </style>
