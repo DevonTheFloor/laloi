@@ -1,8 +1,10 @@
 <template>
   <div>
-    <v-card class="ma-7">
-      <h1>{{ page.title }}</h1>
-      <p>{{ page.description }}</p>
+    <v-card class="ma-7 pa-7">
+      <h1 class="ma-3 text-center">
+        {{ page.title }}
+      </h1>
+      <p class="ma-4">{{ page.description }}</p>
       <figure class="illustration">
         <img :src="page.img">
       </figure>
@@ -46,3 +48,13 @@ export default {
   }
 }
 </script>
+
+<style>
+h2 {
+  margin-left: 4%;
+}
+p {
+  margin: 1%;
+  font-size: 1rem;
+}
+</style>
