@@ -99,6 +99,11 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'Blog',
           to: '/sommaire'
+        },
+        {
+          icon: 'mdi-cart-off',
+          title: 'Déremboursement',
+          to: '/Deremboursement'
         }
       ],
       miniVariant: false,
