@@ -17,9 +17,9 @@
       </blockquote>-->
     </v-col>
     <v-divider />
-    <v-card>
-      <ul>
-        <li v-for="article in sommaire" :key="article.id">
+    <ul>
+      <li v-for="article in sommaire" :key="article.id">
+        <v-card>
           <div class="print pa-5">
             <v-card-title>{{ article.title }}</v-card-title>
             <v-card-text> {{ article.description }} </v-card-text>
@@ -29,10 +29,11 @@
               Lire
             </v-btn>
           </div>
-        </li>
-      </ul>
-      <nuxt-content :document="sommaire" />
-    </v-card>
+        </v-card>
+        <v-divider class="pa-3" />
+      </li>
+    </ul>
+    <nuxt-content :document="sommaire" />
   </v-row>
 </template>
 
