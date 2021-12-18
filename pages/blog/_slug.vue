@@ -59,6 +59,12 @@ p {
   margin: 1%;
   font-size: 1rem;
 }
+.vdo {
+  width: 90%;
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+}
 .imgart {
   display: block;
   max-width: 80%;
