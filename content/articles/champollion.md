@@ -47,6 +47,6 @@ Sans compter que j'ai eu vent d'une histoire cette année où une IA est en char
 Alors attention!! Tout ne va pas systematiquement mal avec l'administration, non j'ai pas dit ça. Mais quand ça va mal, qui est capable de l'arrêter?   
    
    
-<br><br><div class="vdo"><iframe width="560" height="315" src="https://youtu.be/TRNgy3R8P2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> 
+<br><br><div class="vdo"><iframe width="560" height="315" src="https://www.youtube.com/embed/TRNgy3R8P2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> 
 
-
+https://www.youtube.com/watch?v=TRNgy3R8P2s
