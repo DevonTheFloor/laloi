@@ -66,9 +66,19 @@ export default {
           to: '/sommaire'
         },
         {
+          icon: 'mdi-database-search-outline',
+          title: 'IA/Données personnels',
+          to: '/donnee-ia'
+        },
+        {
+          icon: 'mdi-atom',
+          title: 'Centrale Nucléaire',
+          to: '/modif-nucléaire'
+        },
+        {
           icon: 'mdi-cart-off',
           title: 'Déremboursement',
-          to: '/Deremboursement'
+          to: '/deremboursement'
         }
       ],
       miniVariant: false,

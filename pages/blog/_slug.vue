@@ -67,7 +67,7 @@ p {
 }
 .imgart {
   display: block;
-  max-width: 80%;
+  max-width: 70%;
   min-width: 50%;
 }
 
