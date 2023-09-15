@@ -18,7 +18,7 @@ Ce sont des gens lambda qui se demandent comment et pourquoi la justice. Qui se 
 Sans plus attendre, on attaque directement avec un questionnement au combien légitime.   
 Dans ce premier extrait (5’20), l’intervenant dit qu’il anime une radio libre et que c’est sur la base de propos de ces auditeurs qu’il est poursuivi.   
 Peut-on être condamné pour les propos d’autrui délivrés en direct ?   
-L’article 93-2 de la loi du 29 juillet 1982, sur la communication audiovisuelle modifié par la LCEN dispose que « Tout service de communication au public par voie électronique est tenu d'avoir un directeur de la publication. ».   
+L’article 93-2 de la loi du 29 juillet 1982, sur la communication audiovisuelle modifié par la LCEN dispose que « Tout service de communication au public par voie électronique est tenu d'avoir un directeur de la publication ».   
 Maintenant, je pense que nous sommes nombreux à nous demander si c’est valable pour tout le monde ou si ça ne concerne que les professionnels, typiquement : les organes de presse agréés employant des journalistes titulaires de la carte de presse.   
 Le tribunal correctionnel de Fontainebleau a eu à juger une affaire de diffamation sur Facebook de la part d’un particulier envers le maire de sa commune.   
 Il a été ordonné à Facebook Ireland LTD de communiquer les données susceptibles de permettre l’identification du titulaire du compte à l’origine de la création de la page Facebook litigieuse. Facebook fournit tous les éléments de la création de cette page, y compris un numéro de téléphone avec la mention téléphone vérifié.   
