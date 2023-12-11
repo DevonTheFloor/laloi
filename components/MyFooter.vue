@@ -2,6 +2,6 @@
   <v-footer
     app
   >
-    <span>&copy; {{ new Date().getFullYear() }}</span>
+    <span>&copy; 2021 - {{ new Date().getFullYear() }}</span>
   </v-footer>
 </template>

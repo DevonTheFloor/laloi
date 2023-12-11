@@ -14,6 +14,8 @@
         <v-card>
           <div class="print pa-5">
             <v-card-title>{{ article.title }}</v-card-title>
+            <v-card-text> {{ article.write }} </v-card-text>
+
             <v-card-text> {{ article.description }} </v-card-text>
             <v-btn
               :to="`./blog/${article.slug}`"
@@ -32,7 +34,7 @@
 <script>
 export default {
   async asyncData ({ $content, error }) {
-    const sommaire = await $content('articles').only(['title', 'description', 'slug'])
+    const sommaire = await $content('articles').only(['title', 'description', 'write', 'slug'])
       .fetch()
       .catch((err) => {
         // eslint-disable-next-line no-console

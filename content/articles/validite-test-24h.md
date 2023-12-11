@@ -2,6 +2,9 @@
 title: Validité des tests PCR à 24h
 description: Ordonnance de référé qui valide le décret ramenant le délai de validité des tests à 24h, ainsi que la troisième dose pour les plus 65 ans.
 img: https://nulnestcenseignorerlaloi.fr/images/blog/refere1412.jpg
+write: 17/12/21
+code: administratif
+theme: covid-19
 ---
    
 ## Ordonnance de référé   

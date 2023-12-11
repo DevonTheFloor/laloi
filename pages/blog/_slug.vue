@@ -23,7 +23,7 @@ export default {
       .catch((err) => {
         // eslint-disable-next-line no-console
         console.error(err)
-        error({ statusCode: 404, message: 'Page not found' })
+        error({ statusCode: 404, message: 'Nous ne trouvons pas cette page' })
       })
 
     return {
@@ -56,8 +56,8 @@ h2 {
   margin-left: 4%;
 }
 p {
-  margin: 1%;
   font-size: 1rem;
+  text-align: justify;
 }
 .vdo {
   width: 90%;
@@ -70,5 +70,9 @@ p {
   max-width: 70%;
   min-width: 50%;
 }
-
+@media screen and (max-with: 550px){
+  p{
+    margin: 0px;
+  }
+}
 </style>

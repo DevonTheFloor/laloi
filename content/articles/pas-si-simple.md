@@ -2,6 +2,9 @@
 title: C'est pas si simple (Vous avez le droit)
 description: La chaîne youtube "Vous avez le droit" annalyse une rumeur et donne un conseil pour vérifier sa véracité. C'est là que je relève un problème.
 img: ''
+write: 17/07/23
+code: NC
+theme: documentation
 ---
    
 Une petite vidéo « réaction », c’est bien la première fois, mais là , il faut impérativement que je dise quelque chose.   

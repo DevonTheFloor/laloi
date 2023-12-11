@@ -2,11 +2,15 @@
 title: Abandon de poste & présomption de démission
 description: Désormais un salarié pourra être considéré comme démissionnaire si il abandonne son poste et ne revient pas après une mise en demeure.
 img: ''
+write: 01/08/23   
+code: travail   
+theme: licenciement
 ---
+   
 
 Aujourd’hui on parle de le présomption de démission suite à un abandon de poste. Cette mesure est passée dans la loi « portant mesures d'urgence relatives au fonctionnement du marché du travail en vue du plein emploi » et est précisé par le décret Décret n° 2023-275 du 17 avril 2023 .   
    
- Déjà on constatera que la lutte pour le plein emploi passe par présumer de la démission du salariés. 
+Déjà on constatera que la lutte pour le plein emploi passe par présumer de la démission du salariés. 
 Même si  l’intention est louable, je ne suis pas certain que se soit le bon levier à actionner pour atteindre cet objectif. Alors regardons quand même un peu les chiffres.   
    
 Bon, se sera des estimations, car j’ai les chiffres du ministère du travail du 1er semestre 2022 , et ceux de la DARES sont ceux des 4e et troisième trimestre, soit le second semestre.
@@ -68,12 +72,10 @@ Mais aussi que le salarié peut justifier de cette absence
     • la modification du contrat de travail à l'initiative de l'employeur.
 
 
-Donc voilà, des mesures oui, mais pour faire quoi ? 
-Tu peux mettre ta réponse en commentaire si tu as des idées.
-
+Donc voilà, des mesures oui, mais pour faire quoi ?   
+   
 Allez, merci et à la semaine prochaine.   
    
-
+<br><br><div class="vdo"><iframe width="560" height="315" src="https://www.youtube.com/embed/QgNI7VFZ-Qg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>   
    
-
-<br><br><div class="vdo"><iframe width="560" height="315" src="https://www.youtube.com/embed/QgNI7VFZ-Qg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div> 
+   

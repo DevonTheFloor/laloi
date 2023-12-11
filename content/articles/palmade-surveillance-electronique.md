@@ -1,7 +1,10 @@
 ---
-title: L'humloriste français Pierre Palmade est assigné à residence et placé sous surveillance electronique
-description: Suite à l'accident de la route du 10 février 2023 qu'il a propvoqué, l'humoriste Pierre Palmade à été controlé positif à la cocaïne. Alors que plusieurs victimes sont encore hospitalisées, Pierre Palamade est asigné à résidence et placé sous surveillance électronique.
+title: L'humoriste français Pierre Palmade est assigné à residence et placé sous surveillance electronique
+description: Suite à l'accident de la route du 10 février 2023 qu'il a provoqué, l'humoriste Pierre Palmade à été controlé positif à la cocaïne. Alors que plusieurs victimes sont encore hospitalisées, Pierre Palamade est asigné à résidence et placé sous surveillance électronique.
 img: ''
+write: 20/02/23
+code: penal
+theme: homicide involontaire
 ---
    
 ## L'accident du 10 février 2023
