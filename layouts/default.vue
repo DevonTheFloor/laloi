@@ -1,6 +1,6 @@
 <template>
   <v-app dark>
-    <MyHeader />
+    <NavMenu />
     <v-main>
       <v-container fluid>
         <Nuxt id="principal" />

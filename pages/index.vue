@@ -52,7 +52,7 @@
                 no-gutters
               >
                 <v-row
-                  align="center"
+                  align-item="center"
                   class="white--text"
                   justify="center"
                 >
@@ -192,10 +192,7 @@
                     >
                       <a :href="link" target="_blank">
                         <v-img :src="icon" />
-                        <!--<v-icon
-                          large
-                          v-text="icon"
-                        />--></a>
+                      </a>
                     </v-avatar>
                   </div>
                 </v-theme-provider>
@@ -303,16 +300,6 @@
         </v-container>
       </section>
     </v-main>
-
-    <v-footer
-      class="justify-center"
-      color="#292929"
-      height="100"
-    >
-      <div class="title font-weight-light grey--text text--lighten-1 text-center">
-        &copy; 2012 - {{ (new Date()).getFullYear() }} — Made with 💜 by <a href="https://thierry-go-dev.fr" target="_blank">Thierry</a>
-      </div>
-    </v-footer>
   </div>
 </template>
 
@@ -349,7 +336,7 @@ export default {
         },
         {
           icon: 'https://yt3.ggpht.com/ytc/AKedOLQEZF33dHX9BHChwD3kGKFaM0pdb40Gm8amuZMD=s88-c-k-c0x00ffffff-no-rj',
-          title: ' Codes&Co ',
+          title: 'Codes&Co ',
           text: 'Bébé juriste qui a un pied en France et l\'autre à l’international, amoureuse de l\'Europe, du droit de l\'Union Européenne et du droit international (mais pas maso pour autant). Essaie de se remettre à l\'anglais mais préfère bosser des langues asiatiques. Un peu de danse entre deux codes. Beaucoup envie de partager ma passion pour le droit et de le rendre accessible ! L1/L2 Université Toulouse 1 Capitole - L3/M1 Universidad de Valencia (Espagne) - M2 Université nationale du Vietnam de Hanoï Doctorante Université de Bordeaux/Universidad de Valencia - Traite des êtres humains et nouvelles technologies',
           link: 'https://www.youtube.com/channel/UCJYKp6eGV9FhPoiBUzoztSg'
         },
@@ -362,8 +349,8 @@ export default {
         }
       ],
       stats: [
-        ['5,1k', 'Abonnés sur youtube'],
-        ['108', 'Vidéos'],
+        ['5,7k', 'Abonnés sur youtube'],
+        ['142', 'Vidéos'],
         ['360900', 'Vues'],
         ['2015', 'Existe depuis']
       ]

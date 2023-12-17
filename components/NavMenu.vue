@@ -66,6 +66,11 @@ export default {
           to: '/sommaire'
         },
         {
+          icon: 'mdi-apps',
+          title: 'Légitime Défense',
+          to: '/dossier-legitime-defense'
+        },
+        {
           icon: 'mdi-database-search-outline',
           title: 'IA/Données personnels',
           to: '/donnee-ia'

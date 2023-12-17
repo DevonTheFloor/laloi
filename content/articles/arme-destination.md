@@ -1,6 +1,6 @@
 ---
 title: Arme par destination
-description: La definition légale de l'arme par destination et quelque mise en situation.
+description: La définition légale de l'arme par destination et quelques mises en situation.
 img: ''
 write: 31/10/23
 code: penal
