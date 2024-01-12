@@ -6,7 +6,10 @@
         alt="nul n'est censé ingonrer la loi logo"
         class="mb-5"
       >
-      <h1>Etat du droit positif en légitime defense</h1>
+      <h1>Etat du droit positif en légitime défense</h1>
+      <v-card-text>
+        Par les textes de loi, la réglementation mais aussi par la jurisprudence de la Cour de Cassation; ici nous ferons le tour de toutes le régles inhérente à la légitime défense.
+      </v-card-text>
     </v-col>
     <v-divider />
     <ul>
@@ -52,5 +55,8 @@ export default {
 v-card {
   border: 2px solid red;
 }
-
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
 </style>
