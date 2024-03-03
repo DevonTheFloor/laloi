@@ -51,6 +51,26 @@
 </template>
 
 <script>
+export default {
+  head () {
+    return {
+      title: 'Actions Citoyennes',
+      meta: [
+        { hid: 'description', name: 'description', content: "Actions citoyennes, ici nous allons tenter de débugger la justice. Lorsqu'une décision ne tourne vraiment pas rond, nous l'analyserons et chercherons à modifier les textes qui font bugger la justice" },
+        // Open Graph
+        { hid: 'og:title', property: 'og:title', content: 'Actions Citoyennes' },
+        { hid: 'og:description', property: 'og:description', content: "Actions citoyennes, ici nous allons tenter de débugger la justice. Lorsqu'une décision ne tourne vraiment pas rond, nous l'analyserons et chercherons à modifier les textes qui font bugger la justice" },
+        { property: 'og:type', content: 'Web site' },
+        { property: 'og:image', content: '' },
+        // Twitter Card
+        { hid: 'twitter:title', name: 'twitter:title', content: 'Actions Cotoyennes' },
+        { hid: 'twitter:description', name: 'twitter:description', content: "Actions citoyennes, ici nous allons tenter de débugger la justice. Lorsqu'une décision ne tourne vraiment pas rond, nous l'analyserons et chercherons à modifier les textes qui font bugger la justice" },
+        // Twitter Summary card images must be at least 200x200px
+        { name: 'twitter:image', content: '' }
+      ]
+    }
+  }
+}
 
 </script>
 
