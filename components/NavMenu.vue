@@ -84,6 +84,11 @@ export default {
           icon: 'mdi-cart-off',
           title: 'Déremboursement',
           to: '/deremboursement'
+        },
+        {
+          icon: 'mdi-alert-octagram',
+          title: 'Action Citoyenne',
+          to: '/action-citoyenne'
         }
       ],
       miniVariant: false,
