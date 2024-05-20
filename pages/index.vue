@@ -121,7 +121,8 @@
               plain
               rounded
               color="secondary"
-              to="blog/bienvenue"
+              href="http/blog"
+              target="_blank"
             >
               Lire la suite
             </v-btn>
