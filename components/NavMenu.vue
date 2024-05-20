@@ -22,6 +22,13 @@
             <v-list-item-title v-text="item.title" />
           </v-list-item-content>
         </v-list-item>
+        <v-btn
+          class="unik"
+          href="http://nulnestcenseignorerlaloi.fr/blog"
+        >
+          <v-icon left>mdi-chart-bubble</v-icon>
+          MON BLOG
+        </v-btn>
       </v-list>
     </v-navigation-drawer>
     <v-app-bar
@@ -61,11 +68,6 @@ export default {
           to: '/'
         },
         {
-          icon: 'mdi-chart-bubble',
-          title: 'Blog',
-          to: '/sommaire'
-        },
-        {
           icon: 'mdi-apps',
           title: 'Légitime Défense',
           to: '/dossier-legitime-defense'
@@ -81,11 +83,6 @@ export default {
           to: '/modif-nucléaire'
         },
         {
-          icon: 'mdi-cart-off',
-          title: 'Déremboursement',
-          to: '/deremboursement'
-        },
-        {
           icon: 'mdi-alert-octagram',
           title: 'Action Citoyenne',
           to: '/action-citoyenne'
@@ -99,3 +96,17 @@ export default {
   }
 }
 </script>
+<style scoped>
+.unik {
+  color:red;
+  border: 1px solid red;
+  background-color: rgb(239, 233, 233);
+  width:100%;
+}
+.unik:hover {
+  color: white;
+  font-size: larger;
+  border:1px solid white;
+  background-color: rgb(121, 121, 247);
+}
+</style>

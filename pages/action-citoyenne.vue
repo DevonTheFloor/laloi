@@ -30,7 +30,7 @@
         </v-card-text>
         <v-card-text>
           <h4>Les delais</h4>
-          La «justice», puisque que c’est comme ça qu’elle se nomme, à mis plus d’un an a traiter le problème, alors même que l’agresseur était identifié, son adresse est connue et qu’il y avait des témoins de la scène.
+          La «justice», puisque que c’est comme ça qu’elle se nomme, à mis plus d’un an a traiter le problème, alors même que l’agresseur était identifié, son adresse était connue et qu’il y avait des témoins de la scène.
         </v-card-text>
         <v-card-text>
           <h4>Une peine ridicule</h4>

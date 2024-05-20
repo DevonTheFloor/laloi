@@ -121,7 +121,7 @@
               plain
               rounded
               color="secondary"
-              href="http/blog"
+              href="./blog"
               target="_blank"
             >
               Lire la suite
