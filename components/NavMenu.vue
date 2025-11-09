@@ -24,10 +24,10 @@
         </v-list-item>
         <v-btn
           class="unik"
-          href="http://nulnestcenseignorerlaloi.fr/blog"
+          href="https://nulnestcenseignorerlaloi.fr/blog"
         >
           <v-icon left>mdi-chart-bubble</v-icon>
-          MON BLOG
+          Le BLOG
         </v-btn>
       </v-list>
     </v-navigation-drawer>
